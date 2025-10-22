@@ -27,7 +27,7 @@
 #define _USE_MATH_DEFINES
 #include <stdio.h>
 #include <math.h>
-
+```
 void main()
 {
 	system("chcp 1251");
@@ -38,6 +38,7 @@ void main()
 		result *= 1.0 - (1.0 / pow(i, 2));
 	printf("Результат вычислений: %f\n", result);
 }
+```
 ## 3. Результаты работы программы
 4
 Результат вычислений: 0.625000
